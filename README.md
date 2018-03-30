@@ -1,14 +1,21 @@
-# vue-cli 与element-ui学习
+# vue_cli_element_ui
 
-## vue-cli的环境搭建
+> A Vue.js project
 
-## 安装element-ui
+## Build Setup
 
-    npm i element-ui -S
+``` bash
+# install dependencies
+npm install
 
-## 在main.js中配置使用
+# serve with hot reload at localhost:8080
+npm run dev
 
-    import ElementUI from 'element-ui';
-    import 'element-ui/lib/theme-chalk/index.css';
+# build for production with minification
+npm run build
 
-    Vue.use(Element, { size: 'small' });
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
